@@ -5,12 +5,14 @@ import PostItem from './components/PostItem/PostItem';
 function App() {
 
   const [posts, setPosts] = useState([
-    {id:1, title: 'JavaScript', body: 'Description'}
+    {id:1, title: 'JavaScript', body: 'Description'},
+    {id:2, title: 'JavaScript', body: 'Description'},
+    {id:3, title: 'JavaScript', body: 'Description'},
   ])
 
   return (
     <div className="App">
-        <PostItem/>
+      {posts.map(post => <PostItem post={post}/>)}
     </div>
   );
 }

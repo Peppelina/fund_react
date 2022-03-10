@@ -1,11 +1,11 @@
 .post {
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid plum;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    margin: 10px;
+    margin-top: 20px;
 }
 
 .postContent {
