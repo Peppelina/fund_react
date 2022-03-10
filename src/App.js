@@ -1,13 +1,16 @@
 import './App.css';
 import {useState} from "react";
-import Counter from "./components/Counter/Counter";
+import PostItem from './components/PostItem/PostItem';
 
 function App() {
+
+  const [posts, setPosts] = useState([
+    {id:1, title: 'JavaScript', body: 'Description'}
+  ])
+
   return (
     <div className="App">
-        <Counter/>
-        <Counter/>
-        <Counter/>
+        <PostItem/>
     </div>
   );
 }

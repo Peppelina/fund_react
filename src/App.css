@@ -1,0 +1,8 @@
+.App {
+    width: 800px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
