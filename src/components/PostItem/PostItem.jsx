@@ -1,12 +1,12 @@
 import classes from './PostItem.module.css'
 
-const PostItem = (props) => {
+const PostItem = ({post}) => {
 
     return (
         <div className={classes.post}>
             <div className={classes.postContent}>
-                <strong>{props.post.id} {props.post.title}</strong>
-                <div>{props.post.body} </div>
+                <strong>{post.id} {post.title}</strong>
+                <div>{post.body} </div>
             </div>
             <div className={classes.postBtn}>
                 <button>Удалить</button>

@@ -1,6 +1,7 @@
 import './App.css';
 import {useState} from "react";
-import PostItem from './components/PostItem/PostItem';
+import PostList from "./components/PostList/PostList";
+import MyButton from "./components/UI/button/MyButton";
 
 function App() {
 
@@ -12,7 +13,12 @@ function App() {
 
   return (
     <div className="App">
-      {posts.map(post => <PostItem post={post}/>)}
+      <form action="">
+        <input type="text" placeholder={'Название поста'}/>
+        <input type="text" placeholder={'Описание поста'}/>
+        <MyButton> Создать пост</MyButton>
+      </form>
+      <PostList posts={posts} title='Список постов 1'/>
     </div>
   );
 }
