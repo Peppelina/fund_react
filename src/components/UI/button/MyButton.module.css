@@ -6,4 +6,9 @@
     border: 1px solid plum;
     cursor: pointer;
     border-radius: 10px;
+
+}
+.MyBtn:disabled {
+    background-color: darkgray;
+    cursor:not-allowed;
 }

@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostList/PostList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646930305786</updated>
-      <workItem from="1646930310295" duration="3292000" />
+      <workItem from="1646930310295" duration="3596000" />
     </task>
     <servers />
   </component>
