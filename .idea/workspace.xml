@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/button/MyButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI/button" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI/input" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -47,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pro_a\Desktop\Fund_react\src\components\UI\input" />
       <recent name="C:\Users\pro_a\Desktop\Fund_react\src\components\UI\button" />
       <recent name="C:\Users\pro_a\Desktop\Fund_react\src\components\PostList" />
     </key>
@@ -59,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646930305786</updated>
-      <workItem from="1646930310295" duration="3596000" />
+      <workItem from="1646930310295" duration="4266000" />
     </task>
     <servers />
   </component>

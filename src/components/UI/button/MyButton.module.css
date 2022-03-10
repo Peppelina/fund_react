@@ -10,5 +10,5 @@
 }
 .MyBtn:disabled {
     background-color: darkgray;
-    cursor:not-allowed;
+    cursor: not-allowed;
 }
