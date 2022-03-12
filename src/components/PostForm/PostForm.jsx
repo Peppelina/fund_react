@@ -3,7 +3,7 @@ import MyInput from "../UI/input/MyInput";
 import MyButton from "../UI/button/MyButton";
 
 
-const PostForm = ({create}) => {
+const PostForm = ({createPost}) => {
 
     const [post, setPost] = useState(
         {title: '', body: ''}
@@ -14,7 +14,7 @@ const PostForm = ({create}) => {
         const newPost = {
             ...post, id:Date.now()
         }
-        create(newPost)
+        createPost(newPost)
         setPost({title: '', body: ''})
     }
 

@@ -12,3 +12,7 @@
     background-color: darkgray;
     cursor: not-allowed;
 }
+
+.MyBtn:hover {
+    background-color: blueviolet;
+}

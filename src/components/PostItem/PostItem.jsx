@@ -1,6 +1,7 @@
 import classes from './PostItem.module.css'
+import MyButton from "../UI/button/MyButton";
 
-const PostItem = ({post, number}) => {
+const PostItem = ({post, number, removePost}) => {
 
     return (
         <div className={classes.post}>
@@ -9,7 +10,7 @@ const PostItem = ({post, number}) => {
                 <div>{post.body} </div>
             </div>
             <div className={classes.postBtn}>
-                <button>Удалить</button>
+                <MyButton onClick={() => removePost(post)}>Удалить</MyButton>
             </div>
         </div>
     );
