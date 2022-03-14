@@ -1,5 +1,6 @@
 .App {
     width: 800px;
+    box-sizing: border-box;
 }
 
 #root {
@@ -7,3 +8,23 @@
     justify-content: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-enter {
+    transform: translateX(350px);
+}
+.post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+}

@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/PostFilter/PostFilter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/MyModal/MyModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/MyModal/MyModale.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hooks/usePosts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/MySelect/MySelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MySelect/MySelect.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/input/MyInput.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +28,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,7 +82,10 @@
       <updated>1646930305786</updated>
       <workItem from="1646930310295" duration="6414000" />
       <workItem from="1646999783245" duration="6168000" />
-      <workItem from="1647100091856" duration="8091000" />
+      <workItem from="1647100091856" duration="8227000" />
+      <workItem from="1647257651769" duration="8811000" />
+      <workItem from="1647267983248" duration="3352000" />
+      <workItem from="1647271479035" duration="991000" />
     </task>
     <servers />
   </component>
