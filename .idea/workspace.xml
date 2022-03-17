@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/API/PostService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hooks/useFetching.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/pages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1647257651769" duration="8811000" />
       <workItem from="1647267983248" duration="3352000" />
       <workItem from="1647271479035" duration="1274000" />
-      <workItem from="1647544912244" duration="6126000" />
+      <workItem from="1647544912244" duration="8045000" />
     </task>
     <servers />
   </component>

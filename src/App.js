@@ -10,6 +10,7 @@ import axios from 'axios';
 import PostService from "./components/API/PostService";
 import Loader from "./components/UI/Loader/Loader";
 import {useFetching} from "./components/hooks/useFetching";
+import {getPageCount, getPagesArray} from "./utils/pages";
 
 function App() {
     /*[
@@ -22,14 +23,17 @@ function App() {
     const [filter, setFilter] = useState({sortBy: '', search: ''})
     const [modal, setModal] = useState(false)
     const sortedAndFilteredPosts = usePosts(posts, filter.sortBy, filter.search)
-    const [totalCount, setTotalCount] = useState(0)
+    const [totalPages, setTotalPages] = useState(0)
     const [limit, setLimit] = useState(10)
     const [page, setpage] = useState(1)
+
+    let pagesArray = getPagesArray(totalPages)
 
     const [fetchPosts, isPostsLoading, postError] = useFetching( async () => {
         const response = await PostService.getAll(limit, page)
         setPosts(response.data)
-        setTotalCount(response.headers['x-total-count'])
+        const totalPages = response.headers['x-total-count']
+        setTotalPages(getPageCount(totalPages, limit))
         }
     )
 
@@ -70,6 +74,10 @@ function App() {
                     posts={sortedAndFilteredPosts}
                     title='Список постов'/>
             }
+            <div className={'pageWrapper'}>
+                {pagesArray.map(p =>
+                    <MyButton className={'page'}> {p} </MyButton>)}
+            </div>
 
         </div>
     );
