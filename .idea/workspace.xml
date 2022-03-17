@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PostFilter/PostFilter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyModal/MyModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyModal/MyModale.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hooks/usePosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/API/PostService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hooks/useFetching.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/MySelect/MySelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MySelect/MySelect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/input/MyInput.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +77,8 @@
       <workItem from="1647100091856" duration="8227000" />
       <workItem from="1647257651769" duration="8811000" />
       <workItem from="1647267983248" duration="3352000" />
-      <workItem from="1647271479035" duration="991000" />
+      <workItem from="1647271479035" duration="1274000" />
+      <workItem from="1647544912244" duration="6126000" />
     </task>
     <servers />
   </component>
