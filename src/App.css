@@ -35,10 +35,8 @@
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 15px; /*расстояние друг от друга*/
 
 }
 
-.page {
 
-}

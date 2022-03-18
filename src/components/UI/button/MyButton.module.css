@@ -16,3 +16,9 @@
 .MyBtn:hover {
     background-color: blueviolet;
 }
+
+.MyBtnCurrent{
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
