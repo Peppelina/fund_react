@@ -9,6 +9,6 @@ export default class PostService {
                 }
             }
         )
-        return response
+        return [response.data, response.headers['x-total-count']]
     }
 }

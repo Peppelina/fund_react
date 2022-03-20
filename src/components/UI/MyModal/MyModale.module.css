@@ -8,16 +8,15 @@
     background: rgba(0,0,0, 0.5);
 }
 
+.MyModal.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .MyModalContent {
     padding: 25px;
     background-color: white;
     border-radius: 16px;
     min-width: 250px;
-
-}
-
-.MyModal.active{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }

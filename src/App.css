@@ -1,11 +1,13 @@
 .App {
     width: 800px;
     box-sizing: border-box;
+
 }
 
 #root {
     display: flex;
     justify-content: center;
+
 }
 
 * {
@@ -39,4 +41,16 @@
 
 }
 
+.navbar {
+    height: 50px;
+    width: 800px;
 
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background-color: plum;
+}
+
+.navbar_links {
+    margin-left: auto;
+}

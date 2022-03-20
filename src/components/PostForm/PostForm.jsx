@@ -18,6 +18,8 @@ const PostForm = ({createPost}) => {
         setPost({title: '', body: ''})
     }
 
+    const isDisabledButton = post.title === '' || post.body==='' ? true : false
+
     return (
         <form action="">
             <MyInput
@@ -31,7 +33,9 @@ const PostForm = ({createPost}) => {
                 type="text"
                 placeholder={'Описание поста'}/>
             <MyButton onClick={addNewPost}
-                /*disabled*/>Создать пост</MyButton>
+                      disabled={isDisabledButton}>
+                Создать пост
+            </MyButton>
         </form>
     );
 };
