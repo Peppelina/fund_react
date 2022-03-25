@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/PostService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppRouter/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppRouter/AppRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostItem/PostItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem/PostItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useFetching.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useFetching.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
       <workItem from="1647602745281" duration="14236000" />
       <workItem from="1647802796528" duration="6269000" />
       <workItem from="1647881390538" duration="7245000" />
-      <workItem from="1648218522893" duration="4201000" />
+      <workItem from="1648218522893" duration="8254000" />
     </task>
     <servers />
   </component>

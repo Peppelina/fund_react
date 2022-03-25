@@ -69,13 +69,12 @@ function Posts() {
                 setFilter={setFilter}
             />
             {postError && <h1>Произшла ошибка ${postError}</h1>}
-
-            {isPostsLoading
-                ? <Loader/>
-                : <PostList
-                    removePost={removePost}
-                    posts={sortedAndFilteredPosts}
-                    title='Список постов'/>
+            <PostList
+                removePost={removePost}
+                posts={sortedAndFilteredPosts}
+                title='Список постов'/>
+            {isPostsLoading &&
+                 <Loader/>
             }
             <Pagination page={currentPage}
                         totalPages={totalPages}

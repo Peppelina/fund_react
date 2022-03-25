@@ -42,7 +42,9 @@ const PostIdPage = () => {
                 : <div style={{width: 800}}>
                     {
                         comments.map(comm =>
-                            <div style={{marginTop: 15}}>
+                            <div
+                                key={comm.id}
+                                style={{marginTop: 15}}>
                                 <h3>{comm.name}</h3>
                                 <h5>{comm.email}</h5>
                                 <div>{comm.body}</div>
