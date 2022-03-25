@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Error.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Posts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/PostService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/API/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/PostService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostForm/PostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/MyModal/MyModale.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MyModal/MyModale.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/MySelect/MySelect.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MySelect/MySelect.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/pagination/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/pagination/Pagination.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hooks/useFetching.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useFetching.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hooks/usePosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/usePosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppRouter/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppRouter/AppRouter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostItem/PostItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem/PostItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useFetching.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useFetching.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +90,9 @@
       <workItem from="1647271479035" duration="1274000" />
       <workItem from="1647544912244" duration="8419000" />
       <workItem from="1647602745281" duration="14236000" />
-      <workItem from="1647802796528" duration="5075000" />
+      <workItem from="1647802796528" duration="6269000" />
+      <workItem from="1647881390538" duration="7245000" />
+      <workItem from="1648218522893" duration="4201000" />
     </task>
     <servers />
   </component>

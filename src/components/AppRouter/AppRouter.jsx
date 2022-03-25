@@ -1,17 +1,23 @@
 import React from 'react';
 import {Navigate, Route, Routes} from "react-router-dom";
-import Posts from "../../pages/Posts";
-import About from "../../pages/About";
-import Error from "../../pages/Error";
+import {PrivateRoutes, PublicRoutes} from "../../router/routes"
 
 const AppRouter = () => {
+    const isAuth = false
     return (
-        <Routes>
-            <Route path='/posts' element={<Posts/>}></Route>
-            <Route path='/about' element={<About/>}></Route>
-            <Route path='/error' element={<Error/>}></Route>
-            <Route path='*' element={<Navigate to="/error"/>}></Route>
-        </Routes>
+        isAuth
+            ? <Routes>
+                {PrivateRoutes.map(route =>
+                    <Route path={route.path} element={route.component}/>
+                )}
+                <Route path='*' element={<Navigate to="/posts"/>}/>
+            </Routes>
+            : <Routes>
+                {PublicRoutes.map(route =>
+                    <Route path={route.path} element={route.component}/>
+                )}
+                <Route path='*' element={<Navigate to="/login"/>}/>
+            </Routes>
     );
 };
 
