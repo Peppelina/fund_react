@@ -2,10 +2,10 @@ import axios from "axios";
 
 export default class PostService {
     static async getAll(limit = 10, page = 1) {
-        const response = await axios.get('https://jsonplaceholder.typicode.com/posts', {
+        const response = await axios.get('http://localhost:5000/api/posts', {
                 params: {
-                    _limit: limit,
-                    _page: page
+                    limit: limit,
+                    page: page
                 }
             }
         )
@@ -20,5 +20,10 @@ export default class PostService {
     static async getCommentsByPostId(id) {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
         return response
+    }
+
+    static async createNewPost(post) {
+        const response = await axios.post('http://localhost:5000/api/posts', post)
+        return response.data
     }
 }

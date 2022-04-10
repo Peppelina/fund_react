@@ -6,30 +6,35 @@ import MyButton from "../UI/button/MyButton";
 const PostForm = ({createPost}) => {
 
     const [post, setPost] = useState(
-        {title: '', body: ''}
+        {title: '', content: '', author: ''}
     )
 
     const addNewPost = (e) => {
         e.preventDefault() // чтоб страница не перезагружалась
         const newPost = {
-            ...post, id:Date.now()
+            ...post
         }
         createPost(newPost)
-        setPost({title: '', body: ''})
+        setPost({title: '', content: '', author: ''})
     }
 
-    const isDisabledButton = post.title === '' || post.body==='' ? true : false
+    const isDisabledButton = post.title === '' || post.content==='' || post.author==='' ? true : false
 
     return (
         <form action="">
+            <MyInput
+                value={post.author}
+                onChange={e => setPost({...post, author: e.target.value})}
+                type="text"
+                placeholder={'Автор'}/>
             <MyInput
                 value={post.title}
                 onChange={e => setPost({...post, title: e.target.value})}
                 type="text"
                 placeholder={'Название поста'}/>
             <MyInput
-                value={post.body}
-                onChange={e => setPost({...post, body: e.target.value})}
+                value={post.content}
+                onChange={e => setPost({...post, content: e.target.value})}
                 type="text"
                 placeholder={'Описание поста'}/>
             <MyButton onClick={addNewPost}

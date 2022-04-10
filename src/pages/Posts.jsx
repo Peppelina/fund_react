@@ -23,7 +23,7 @@ function Posts() {
     const [filter, setFilter] = useState({sortBy: '', search: ''})
     const [modal, setModal] = useState(false)
     const sortedAndFilteredPosts = usePosts(posts, filter.sortBy, filter.search)
-    const [totalPages, setTotalPages] = useState(0)
+    const [totalPages, setTotalPages] = useState(0) // totalPages === последняя страница
     const [limit, setLimit] = useState(10)
     const [currentPage, setCurrentPage] = useState(1)
 
@@ -38,9 +38,15 @@ function Posts() {
         fetchPosts()
     }, [currentPage])
 
-    const createPost = (newPost) => {
-        setPosts([...posts, newPost])
+    const createPost = async (newPost) => {
+        const newPostServer = await PostService.createNewPost(newPost)
+        setPosts([...posts, newPostServer])
+        if (posts.length===limit) {
+            setCurrentPage(totalPages)
+        }
+
         setModal(false)
+
     }
 
     const removePost = (post) => {

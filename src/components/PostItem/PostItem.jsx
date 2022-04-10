@@ -8,7 +8,8 @@ const navigate = useNavigate()
         <div className={classes.post}>
             <div className={classes.postContent}>
                 <strong>{number}. {post.title}</strong>
-                <div>{post.body} </div>
+                <div>{post.author} </div>
+                <div>{post.content} </div>
             </div>
             <div className={classes.postBtn}>
                 <MyButton style={ {marginRight: 5 } }

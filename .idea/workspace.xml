@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/context/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppRouter/AppRouter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppRouter/AppRouter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/PostService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostFilter/PostFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostFilter/PostFilter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostForm/PostForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/pages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI/input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -89,7 +89,12 @@
       <workItem from="1647602745281" duration="14236000" />
       <workItem from="1647802796528" duration="6269000" />
       <workItem from="1647881390538" duration="7245000" />
-      <workItem from="1648218522893" duration="8254000" />
+      <workItem from="1648218522893" duration="8413000" />
+      <workItem from="1648662573148" duration="1140000" />
+      <workItem from="1649364384463" duration="1122000" />
+      <workItem from="1649441307434" duration="2782000" />
+      <workItem from="1649536892997" duration="4953000" />
+      <workItem from="1649592773605" duration="5593000" />
     </task>
     <servers />
   </component>
