@@ -4,7 +4,7 @@ import classes from './MyButton.module.css'
 const MyButton = ({children, ...props}) => {
 
     const rootClass = [classes.MyBtn]
-       if (props.active) {
+       if (props.selected) {
            rootClass.push(classes.MyBtnCurrent)
        }
 

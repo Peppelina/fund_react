@@ -10,7 +10,7 @@ const Pagination = ({totalPages,changePage, page }) => {
                 <MyButton
                     onClick={() => changePage(p)}
                     key={p}
-                    active={page === p ? true : false}
+                    selected={page === p ? true : false}
                 >
                     {p}
                 </MyButton>)}

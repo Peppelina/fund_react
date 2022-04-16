@@ -11,6 +11,7 @@ import PostFilter from "../components/PostFilter/PostFilter";
 import Loader from "../components/UI/Loader/Loader";
 import PostList from "../components/PostList/PostList";
 import Pagination from "../components/UI/pagination/Pagination";
+import UpdatePostForm from "../components/UpdatePostForm/UpdatePostForm";
 
 function Posts() {
     /*[
@@ -26,6 +27,9 @@ function Posts() {
     const [totalPages, setTotalPages] = useState(0) // totalPages === последняя страница
     const [limit, setLimit] = useState(10)
     const [currentPage, setCurrentPage] = useState(1)
+    const [selectedPost, setSelectedPost] = useState({})
+    const [modalUpdatePost, setModalUpdatePost] = useState(false)
+
 
     const [fetchPosts, isPostsLoading, postError] = useFetching( async () => {
             const [posts, totalCount] = await PostService.getAll(limit, currentPage)
@@ -41,6 +45,7 @@ function Posts() {
     const createPost = async (newPost) => {
         const newPostServer = await PostService.createNewPost(newPost)
         setPosts([...posts, newPostServer])
+
         if (posts.length===limit) {
             setCurrentPage(totalPages)
         }
@@ -49,15 +54,28 @@ function Posts() {
 
     }
 
-    const removePost = (post) => {
-        setPosts(posts.filter(p => p.id !== post.id))
-        // вернет оратно если true, если id=3 и выбранный тоже 3, это false (3!=3), и уберет его
+    const removePost = async (id) => {
+        await PostService.deletePost(id)
+        fetchPosts()
+
     }
 
     const changePage = (page) => {
         setCurrentPage(page)
         setFilter({...filter, sortBy: ''})
     }
+
+    const updatePost = async (updatePost) => {
+        const newUpdatedPost= await PostService.updatePost(updatePost)
+        const newPosts = posts.map(post => {
+            if (post._id === newUpdatedPost._id) return newUpdatedPost
+            return post
+        })
+        setPosts(newPosts)
+        setModalUpdatePost(false)
+    }
+
+
 
     return (
         <div className="App">
@@ -69,6 +87,11 @@ function Posts() {
             <MyModal visiable={modal} setVisiable={setModal}>
                 <PostForm createPost={createPost}/>
             </MyModal>
+            <MyModal visiable={modalUpdatePost} setVisiable={setModalUpdatePost}>
+                <UpdatePostForm updatePost={updatePost}
+                selectedPost={selectedPost}
+                />
+            </MyModal>
 
             <PostFilter
                 filter={filter}
@@ -78,7 +101,14 @@ function Posts() {
             <PostList
                 removePost={removePost}
                 posts={sortedAndFilteredPosts}
-                title='Список постов'/>
+                title='Список постов'
+                update = {
+                    (post) => {
+                        setSelectedPost(post)
+                        setModalUpdatePost(true)
+                    }
+                }
+                />
             {isPostsLoading &&
                  <Loader/>
             }

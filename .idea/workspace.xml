@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c244482b-3d61-49fb-b59a-2ff0fb18edf7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UpdatePostForm/UpdatePostForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/PostService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostFilter/PostFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostFilter/PostFilter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostForm/PostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostForm/PostForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem/PostItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostList/PostList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/pagination/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/pagination/Pagination.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostIdPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/pages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,10 @@
       <workItem from="1649364384463" duration="1122000" />
       <workItem from="1649441307434" duration="2782000" />
       <workItem from="1649536892997" duration="4953000" />
-      <workItem from="1649592773605" duration="5593000" />
+      <workItem from="1649592773605" duration="5791000" />
+      <workItem from="1649603252531" duration="10000" />
+      <workItem from="1650057874367" duration="4741000" />
+      <workItem from="1650130366664" duration="15964000" />
     </task>
     <servers />
   </component>
